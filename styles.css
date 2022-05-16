@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .navbar{
     display: inline-flex;
     width: 100%;
@@ -19,7 +23,7 @@
 }
 
 .navbar ul{
-    padding-right: 50rem;
+    max-width: 50%;
 }
 
 .navbar p{
@@ -28,7 +32,6 @@
     font-family: 'Brush Script MT', cursive;
     font-size: 20px;
     justify-content: flex-start;
-    
 }
 
 .navbar li{
@@ -38,10 +41,14 @@
     font-weight: bold;
 }
 
-.navbar #logo{
+.navbar #logo_img{
     height: 100px;
     width: 300px;
     padding-top: 1px;
+}
+
+#logo p{
+    vertical-align: top;
 }
 
 .main{
@@ -49,3 +56,21 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
+.subjects{
+    padding-top: 200px;
+    display: inline-flex;
+    flex-direction: columns;
+    max-width: 200px;
+    padding-left: 20%;
+    justify-content: center;
+}
+
+.subject{
+    justify-content: center;
+    margin: 20px;
+    width: 200%;
+    height: 150%;
+
+}
+
