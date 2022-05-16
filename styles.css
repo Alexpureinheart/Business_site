@@ -1,0 +1,35 @@
+
+.navbar{
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+
+.navbar ul, p{
+    display: inline-flex;
+    list-style: none;
+    padding-top: 1.5rem;
+}
+
+.navbar p{
+    padding-top: 2rem;
+    padding-right: 11rem;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+}
+
+.navbar li{
+    padding: 10px;
+    display: inline-flex;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.navbar #logo{
+    height: 100px;
+    width: 300px;
+    padding-top: 1px;
+}
