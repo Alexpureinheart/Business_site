@@ -3,42 +3,41 @@ body{
 }
 
 .navbar{
-    display: inline-flex;
-    width: 100%;
-    justify-content: space-between;
+    display: flex;
     border-bottom-style:solid;
     border-bottom-color: black;
     border-bottom-width: 2px;
     position: fixed;
     background-color: white;
-    padding-left: none;
-    min-width: 50px;
+    width: 100%;
+    max-width: 100%;
+    min-width: 20%;
+    padding-bottom: -1px;
+    justify-content: space-between;
 }
 
-.navbar ul, p{
-    display: inline-flex;
-    list-style: none;
-    padding-top: 1.5rem;
-    white-space: nowrap;
-}
 
-.navbar ul{
-    max-width: 50%;
-}
 
 .navbar p{
     padding-top: 2rem;
-    padding-right: 13rem;
     font-family: 'Brush Script MT', cursive;
     font-size: 20px;
     justify-content: flex-start;
+    flex-wrap: nowrap;
+}
+
+.navbar ul{
+    margin-top: 3em;
+    height: 3em;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 .navbar li{
     padding: 10px;
-    display: inline-flex;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
+    list-style: none;
 }
 
 .navbar #logo_img{
@@ -47,8 +46,9 @@ body{
     padding-top: 1px;
 }
 
-#logo p{
-    vertical-align: top;
+.navbar #logo{
+  display: inline-flex;  
+  justify-content: left;
 }
 
 .main{
