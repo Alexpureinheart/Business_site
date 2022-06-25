@@ -1,5 +1,10 @@
 body{
+    display: flex;
     margin: 0px;
+    background-image: url("images/background.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    justify-content: center;
 }
 
 .navbar{
@@ -16,12 +21,12 @@ body{
     justify-content: space-between;
 }
 
-
-
 .navbar p{
-    padding-top: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 20px;
     font-family: 'Brush Script MT', cursive;
-    font-size: 20px;
+    font-size: 30px;
     justify-content: flex-start;
     flex-wrap: nowrap;
 }
@@ -38,6 +43,7 @@ body{
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     list-style: none;
+    font-size: 25px;
 }
 
 .navbar #logo_img{
@@ -51,26 +57,19 @@ body{
   justify-content: left;
 }
 
-.main{
-    background-image: url("images/background.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-
 .subjects{
-    padding-top: 200px;
-    display: inline-flex;
-    flex-direction: columns;
-    max-width: 200px;
-    padding-left: 20%;
+    padding-top: 150px;
+    display: flex;
+    max-width: 200rem;
+    max-height: 35rem;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .subject{
-    justify-content: center;
-    margin: 20px;
-    width: 200%;
-    height: 150%;
-
+    display: inline-flex;
+    margin: 30px;
+    max-width: 30rem;
+    max-height: 15rem;
 }
 
