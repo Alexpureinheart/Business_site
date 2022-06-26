@@ -97,6 +97,11 @@ body{
     font-weight: bold;
 }
 
+#subject_para button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
 #subject_para p{
     margin: 0;
 }
@@ -148,7 +153,52 @@ body{
     color: #fff;
 }
 
+.locations{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
+#location_heading{
+    text-align: center;
+    margin-top: 6em;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.location{
+    display: inline-flex;
+    text-align: left;
+    font-size: 35px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    min-width: 360px;
+}
+
+footer{
+    display: inline-flex;
+    justify-content: space-evenly;
+    min-width: 500px;
+    width: 100%;
+    color: #fff;
+    background-color: #000;
+    max-height: 500px;
+    margin: 0px;
+    flex-wrap: wrap;
+}
+
+footer p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+    height: 100px;
+    padding-top: 28px;
+}
+
+#social{
+    padding-top: 0px;
+}
 
 
 
